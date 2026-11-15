@@ -23,7 +23,7 @@ struct Color {
           b(limit(b, 0, 255)),
           a(limit(a, 0, 255)) {}
 
-    int togray() const {
+    int toGrayscale() const {
         return static_cast<int>(std::round(0.299 * r + 0.587 * g + 0.114 * b));
     }
 
