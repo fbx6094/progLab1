@@ -7,7 +7,7 @@ void P2Exporter::exportToFile(const Image& image,
                               const std::string& filename) const {
     std::ofstream out(filename);
     if (!out.is_open()) {
-        throw std::runtime_error("Не удалось открыть файл для записи: " +
+        throw std::runtime_error("couldnt open file to write: " +
                                  filename);
     }
 
@@ -44,7 +44,7 @@ void P3Exporter::exportToFile(const Image& image,
                               const std::string& filename) const {
     std::ofstream out(filename);
     if (!out.is_open()) {
-        throw std::runtime_error("Не удалось открыть файл для записи: " +
+        throw std::runtime_error("couldnt open file to write: " +
                                  filename);
     }
 

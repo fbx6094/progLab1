@@ -1,2 +1,6 @@
 ./.vscode
 settings.json
+*.o
+*.exe
+*.ppm
+*.md
